@@ -4,3 +4,12 @@
 	issued  2013-01-04;
 	label   "Initial release".
 
+`Trait-Attribute-Derived 0.002 cpan:TOBYINK`
+	issued  2013-01-04;
+	changelog [
+		item [
+			a dcs:Packaging ;
+			label "Correctly list dependencies" ;
+			dcs:thanks cpan:MITHALDU ;
+		];
+	].
