@@ -6,7 +6,7 @@
 
 `Trait-Attribute-Derived 0.002 cpan:TOBYINK`
 	issued  2013-01-04;
-	changelog [
+	changeset [
 		item [
 			a dcs:Packaging ;
 			label "Correctly list dependencies" ;
