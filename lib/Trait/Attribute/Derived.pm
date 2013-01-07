@@ -103,7 +103,7 @@ role {
 			return $self->$postprocess($_, +{%data});
 		};
 	};
-
+	
 	before _process_options => sub
 	{
 		my ($meta, $name, $spec) = @_;
@@ -157,10 +157,12 @@ Trait::Attribute::Derived - trait for lazy-built Moose attributes that are deriv
       );
       has last_name => (
          traits       => [ Split ],
+         source        => 'full_name',
          segment      => -1,
       );
       has initial => (
          traits        => [ Split ],
+         source        => 'full_name',
          segment       => 0,
          postprocessor => sub { substr $_, 0, 1 },
       );
@@ -316,7 +318,7 @@ operates on the output of the C<processor>.
    
    # say "0"
    say Person->meta->get_attribute('first_name')->segment;
-	
+   
    # say "1"
    say Person->meta->get_attribute('initial')->has_postprocessor;
 
