@@ -5,7 +5,7 @@ use strict;
 
 BEGIN {
 	$Trait::Attribute::Derived::AUTHORITY = 'cpan:TOBYINK';
-	$Trait::Attribute::Derived::VERSION   = '0.002';
+	$Trait::Attribute::Derived::VERSION   = '0.003';
 }
 
 use MooseX::Role::Parameterized;

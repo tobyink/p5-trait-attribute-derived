@@ -13,3 +13,18 @@
 			dcs:thanks cpan:MITHALDU ;
 		];
 	].
+
+`Trait-Attribute-Derived 0.003 cpan:TOBYINK`
+	issued  2013-01-07;
+	changeset [
+		item [
+			a dcs:Documentation ;
+			label "Fix the example in the SYNOPSIS" ;
+			dcs:fixes RT#82523 ;
+			dcs:thanks cpan:SPUDSOUP ;
+		];
+		item [
+			a dcs:Documentation, dcs:Addition ;
+			label "Add examples/text-example-from-pod.pl" ;
+		];
+	].
