@@ -28,3 +28,14 @@
 			label "Add examples/text-example-from-pod.pl" ;
 		];
 	].
+
+`Trait-Attribute-Derived 0.004 cpan:TOBYINK`
+	issued  2013-02-06;
+	changeset [
+		item [
+			a dcs:Packaging ;
+			label "Fix test_requires dependency on self" ;
+			dcs:fixes RT#83157 ;
+			dcs:thanks cpan:CHORNY ;
+		];
+	].

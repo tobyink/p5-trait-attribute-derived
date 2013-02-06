@@ -9,6 +9,5 @@
 	requires          p`Sub::NonRole 0.002`;
 	requires          p`namespace::autoclean 0`;
 	requires          p`Moose 2.00`;
-	test_requires     p`Trait::Attribute::Derived 0`;
 	.
 
