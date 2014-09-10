@@ -1,0 +1,11 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Trait-Attribute-Derived/project>
+	deps:runtime-requirement         [
+		deps:on "MooseX::Role::Parameterized 0"^^deps:CpanId;
+	];
+	deps:runtime-requirement         [ deps:on "Sub::Install 0"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Sub::NonRole 0.002"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "namespace::autoclean 0"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Moose 2.00"^^deps:CpanId ].
+
